@@ -82,9 +82,11 @@
           list-style-type: none;
           flex-direction: row;
           margin: 0;
+          column-gap: 9px;
           li {
             margin-top: 0px;
             font-size: 1.1rem;
+            width: 58px;
             &:hover {
               font-weight: 500;
             }
@@ -98,11 +100,15 @@
   }
 }
 //desktop
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .navbar {
         .container {
           .navElements {
+            width: 65%;
+            justify-content: center;
             ul {
+              width: 100%;
+              justify-content: space-around;
               li {
                 margin-top: 0px;
                 font-size: 1rem;

@@ -1,0 +1,58 @@
+[
+  {
+    "imagen": "https://ejemplo.com/imagen1.jpg",
+    "titulo": "Aventuras en el Bosque Encantado",
+    "descripcion": "Únete a nuestros valientes amigos mientras exploran un bosque lleno de criaturas mágicas y emocionantes sorpresas.",
+    "etiquetas": ["aventura", "fantasía"],
+    "autor": "Laura Pérez"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen2.jpg",
+    "titulo": "El Viaje del Pequeño Explorador",
+    "descripcion": "Descubre el mundo a través de los ojos de un pequeño explorador y aprende sobre diferentes culturas y lugares del mundo.",
+    "etiquetas": ["aventura", "enseñanza", "familia"],
+    "autor": "Carlos Gómez"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen3.jpg",
+    "titulo": "Magia en la Ciudad de los Juguetes",
+    "descripcion": "Acompaña a nuestros personajes en una ciudad llena de juguetes mágicos que cobran vida. Una historia emocionante llena de diversión.",
+    "etiquetas": ["acción", "aventura", "familia"],
+    "autor": "Ana Martínez"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen4.jpg",
+    "titulo": "El Jardín de las Mariposas",
+    "descripcion": "Explora un hermoso jardín lleno de mariposas mágicas y aprende sobre la importancia de cuidar la naturaleza.",
+    "etiquetas": ["aventura", "naturaleza", "enseñanza"],
+    "autor": "María Sánchez"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen5.jpg",
+    "titulo": "El Tesoro Perdido del Pirata Parche",
+    "descripcion": "Embárcate en una emocionante búsqueda del tesoro con el intrépido Pirata Parche y sus amigos. ¡Aventuras y tesoros te esperan!",
+    "etiquetas": ["aventura", "acción", "enseñanza"],
+    "autor": "Javier López"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen6.jpg",
+    "titulo": "La Fiesta de los Colores",
+    "descripcion": "Únete a nuestros personajes en una divertida fiesta donde cada color tiene su propia historia. Una manera creativa de aprender sobre colores y amistad.",
+    "etiquetas": ["enseñanza", "creatividad", "familia"],
+    "autor": "Elena Rodríguez"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen7.jpg",
+    "titulo": "El Misterio del Bosque Encantado",
+    "descripcion": "Resuelve el misterio de un bosque encantado junto con un grupo de amigos curiosos. Descubre criaturas mágicas y desentraña secretos ocultos.",
+    "etiquetas": ["aventura", "misterio", "familia"],
+    "autor": "Pedro Gutiérrez"
+  },
+  {
+    "imagen": "https://ejemplo.com/imagen8.jpg",
+    "titulo": "Amigos del Espacio",
+    "descripcion": "Viaja a planetas lejanos y haz nuevos amigos alienígenas. Una historia encantadora que celebra la diversidad y la amistad intergaláctica.",
+    "etiquetas": ["aventura", "ciencia ficción", "familia"],
+    "autor": "Isabel Martín"
+  }
+]

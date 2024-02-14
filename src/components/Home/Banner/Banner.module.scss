@@ -1,0 +1,88 @@
+@import "/src/variables";
+
+.bannerContainer {
+  background-color: rgba(0, 255, 255, 0);
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+  .textContainer {
+    h1 {
+      margin: 0;
+      font-size: 46px;
+      font-weight: 300;
+    }
+    h2 {
+      margin: 15px 0 0 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    p {
+      margin-top: 12px;
+      font-size: 16px;
+    }
+  }
+  .buttonContainer {
+    margin: 68px 0 0 0;
+    button {
+      color: $color_primary;
+      letter-spacing: -0.7px;
+      font-size: 16px;
+      background-color: $color_accent;
+      border: 1px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      column-gap: 36px;
+    }
+  }
+}
+
+//tablet
+
+@media (min-width: 768px) {
+  .bannerContainer {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .textContainer {
+      h1 {
+        font-size: 46px;
+      }
+      p {
+        text-wrap: pretty;
+      }
+    }
+    .buttonContainer{
+        margin: 62px 0px;  
+    }
+  }
+}
+
+//desktop
+@media (min-width: 1024px) {
+    .bannerContainer {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .textContainer {
+          h1 {
+            font-size: 52px;
+          }
+          p {
+            font-size: 18px;
+            text-wrap: wrap;
+          }
+        }
+        .buttonContainer {
+            margin: 58px 0px 62px 0;
+            button {
+                font-size: 16px;
+
+            }
+        }
+        
+      }
+}
