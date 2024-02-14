@@ -1,0 +1,18 @@
+@import './_variables.scss';
+
+:root {
+  font-family: $font;
+  color: $color_text;
+  background-color: $color_primary;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
