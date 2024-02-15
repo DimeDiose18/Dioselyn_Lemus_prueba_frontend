@@ -1,0 +1,108 @@
+@import "/src/variables";
+
+.cardContainer {
+  background-color: $color_accent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 70%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 10px;
+  padding: 14px;
+  .imageContainer {
+    width: 150px;
+    .img {
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+        rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+  }
+  .title {
+    font-size: 28px;
+    text-align: center;
+    color: $color_primary;
+  }
+  p {
+    font-weight: 300;
+    text-align: center;
+    line-height: 18px;
+    margin: 0;
+    text-align: left;
+  }
+  .tagContainer {
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: space-around;
+    p {
+      background-color: $color_primary;
+      color: $color-text;
+      font-weight: 400;
+      font-size: 12px;
+      padding: 5px 9px;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+        rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+  }
+  span {
+    margin-right: 140px;
+    margin-top: 22px;
+    font-size: 14px;
+  }
+}
+
+//tablet
+
+@media (min-width: 768px) {
+  .cardContainer {
+    padding: 20px;
+    height: 400px;
+    width: 76%;
+    .imageContainer {
+      width: 140px;
+    }
+    .title {
+      font-size: 25px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .tagContainer {
+      width: 100%;
+      p {
+        font-size: 12px;
+        padding: 5px 12px;
+        
+      }
+    }
+  }
+}
+//desktop
+
+@media (min-width: 1024px) {
+    .cardContainer {
+        padding: 25px;
+        height: 450px;
+        width: 80%;
+        .imageContainer {
+            width: 140px;
+        }
+        .title{
+            font-size: 28px;
+        }
+        .p {
+          font-size: 22px;
+          line-height: 20px;
+        }
+        span {
+          margin-right: 110px;
+          margin-top: 16px;
+          font-size: 14px;
+        }
+    }
+}

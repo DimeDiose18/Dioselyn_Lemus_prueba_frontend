@@ -1,6 +1,7 @@
 import { Animation } from "./Animation/Animation";
 import { Banner } from "./Banner/Banner";
 import styles from "./Home.module.scss";
+import { Sliderr } from "./Slider/Slider";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         </section>
       </div>
       <div className={styles.sliderContainer}>
-      <Slider />
+      <Sliderr />
       </div>
     </>
   );
