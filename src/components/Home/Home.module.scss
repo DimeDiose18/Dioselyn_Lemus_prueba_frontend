@@ -1,61 +1,83 @@
-@import '/src/variables';
+@import "/src/variables";
 
 .sectionContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 0px 18px;
-    .section_1 {
-        width: 100%;
-        height: 400px;
-    }
-    .section_2 {
-        width: 100%;
-        height: 600px;
-    }
-}
-.inputsContainer{
-    background-color: $color_secondary;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 0px 18px;
+  .section_1 {
+    width: 100%;
     height: 400px;
+  }
+  .section_2 {
+    width: 100%;
+    height: 600px;
+  }
 }
-
+.inputsContainer {
+    background-color: #8C8377;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px 0px 0px;
+  .selectContainer {
+    width: 90%;
+    height: 378px;
+  }
+  .radioContainer {
+    width: 90%;
+    height: 385px;
+  }
+  .formContainer {
+    width: 90%;
+    height: 480px;
+  }
+}
 
 //tablet
 @media (min-width: 768px) {
-    .sectionContainer{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 0px 0 0 28px;
+  .sectionContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0 0 28px;
     .section_1 {
-        width: 60%;
-        height: 530px;
+      width: 60%;
+      height: 530px;
     }
     .section_2 {
-        width: 40%;
-        height: 600px;
-        z-index: 22;
-        position: absolute;
-        top: 0;
-        right: 0;
+      width: 40%;
+      height: 600px;
+      z-index: 22;
+      position: absolute;
+      top: 0;
+      right: 0;
     }
-    }
+  }
 }
 
 @media (min-width: 1024px) {
-    .sectionContainer{
-        padding: 0px 0 0 102px;
-      .section_1 {
-          width: 70%;
-          height: 530px;
-      }
-      .section_2 {
-          width: 30%;
-          height: 600px;
-      }
+  .sectionContainer {
+    padding: 0px 0 0 102px;
+    .section_1 {
+      width: 70%;
+      height: 530px;
     }
-    .sliderContainer{
-        display: flex;
-        justify-content: center;
+    .section_2 {
+      width: 30%;
+      height: 600px;
     }
+  }
+  .sliderContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .inputsContainer {
+    background-color: #8C8377;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 30px 0px 30px;
+    column-gap: 60px;
+  }
 }

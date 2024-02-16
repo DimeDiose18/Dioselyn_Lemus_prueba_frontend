@@ -1,7 +1,9 @@
 import { Animation } from "./Animation/Animation";
 import { Banner } from "./Banner/Banner";
 import styles from "./Home.module.scss";
+import { RadioInput } from "./RadioInput/RadioInput";
 import { SelectInput } from "./SelectInput/SelectInput";
+import { FormInput } from "./FormInput/FormInput";
 import { Sliderr } from "./Slider/Slider";
 
 const Home = () => {
@@ -19,11 +21,15 @@ const Home = () => {
       <Sliderr />
       </div>
       <div className={styles.inputsContainer}>
-        <secion>
+        <section className={styles.selectContainer}>
         <SelectInput />
-        </secion>
-        <secion>radio buttons</secion>
-        <secion>inputs</secion>
+        </section>
+        <section className={styles.radioContainer}>
+          <RadioInput />
+        </section>
+        <section className={styles.formContainer}>
+          <FormInput />
+        </section>
       </div>
     </>
   );

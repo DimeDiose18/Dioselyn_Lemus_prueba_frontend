@@ -12,7 +12,7 @@ const BigMenu = () => {
         <ul className={styles.ulBigMenu}>
             <li>Page 1</li>
             <li>Page 2</li>
-            <li className={styles.section}  onClick={() => setOpen(!open)}>Page 3 <span>{open ? <IconArrowUp /> : <IconArrowDown />}</span>
+            <li className={styles.section}  onClick={() => setOpen(!open)}>Page 3 <span>{open ? <IconArrowUp color={'#fff'} width={'10px'} height={'10px'} /> : <IconArrowDown color={'#fff'} width={'10px'} height={'10px'} />}</span>
                 {
                   open && <ul>
                     <li>Item 1</li>
