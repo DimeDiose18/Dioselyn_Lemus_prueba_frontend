@@ -1,12 +1,13 @@
 import styles from './Slide.module.scss'
 import PropTypes from "prop-types";
+import IMG from '../../../../assets/libro.jfif';
 
 const Slide = ({ info }) => {
-  const { titulo, autor, imagen, descripcion, etiquetas } = info;
+  const { titulo, autor, descripcion, etiquetas } = info;
   return (
     <div className={styles.cardContainer}>
       <div className={styles.imageContainer}>
-        <img src={imagen} alt={titulo} className={styles.img} />
+        <img src={IMG} alt={titulo} className={styles.img} />
       </div>
       <h2 className={styles.title}>{titulo}</h2>
       <p>{descripcion}</p>
