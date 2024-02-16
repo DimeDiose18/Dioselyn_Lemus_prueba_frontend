@@ -1,0 +1,64 @@
+@import "/src/variables";
+
+.bigMenuContainer {
+  background-color: $color_accent;
+  width: 138px;
+  position: absolute;
+  border-radius: 20px;
+  height: 180px;
+  top: 27px;
+  right: -35px;
+  display: flex;
+  align-items: flex-start;
+  .BigMenu {
+    .ulBigMenu {
+      margin: 0;
+      padding: 12px;
+      .section {
+        display: flex;
+        justify-content: space-between;
+      }
+      > li {
+        position: relative;
+        list-style: none;
+        width: 102px;
+        margin: 0px 0px 0px 6px;
+        border-bottom: 1px solid #fff;
+        padding: 2px 0px;
+        font-weight: 300;
+        cursor: pointer;
+        &:hover {
+          font-weight: 600;
+        }
+        ul {
+          padding: 0px 0px 0px 16px;
+          position: absolute;
+          width: 85%;
+          top: 30px;
+          > li {
+            font-weight: 300;
+            list-style: none;
+            border-bottom: 1px solid #fff;
+            padding: 2px 0px;
+            cursor: pointer;
+            &:hover {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.heightProp {
+  background-color: $color_accent;
+  width: 138px;
+  position: absolute;
+  border-radius: 20px;
+  height: 108px;
+  top: 27px;
+  right: -35px;
+  display: flex;
+  align-items: flex-start;
+}
