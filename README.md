@@ -15,9 +15,9 @@ Espera pacientemente mientras se instalan las dependencias.
 Cómo Levantar la Aplicación
 Una vez que todas las dependencias estén instaladas, puedes levantar la aplicación utilizando el siguiente comando:
 
-bash
-Copy code
-npm run dev
+     ```bash
+     npm run dev
+
 🚀 Esto iniciará la aplicación en modo de desarrollo. ¡Listo para explorar y probar!
 
 Contacto
