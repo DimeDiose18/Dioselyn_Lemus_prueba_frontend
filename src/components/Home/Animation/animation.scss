@@ -1,0 +1,22 @@
+
+  
+  #movingParts {
+    animation: rotateParts 35s infinite linear
+  }
+
+  #movingParts_2 {
+    animation: rotateParts 15s infinite linear
+  }
+  
+  @keyframes rotateParts {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

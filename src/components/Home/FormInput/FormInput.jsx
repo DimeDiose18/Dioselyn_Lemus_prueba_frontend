@@ -14,7 +14,6 @@ const FormInput = () => {
   };
 
   useEffect(() => {
-    console.log(inputValues);
   }, [inputValues]);
 
   return (
